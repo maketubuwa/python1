@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello my dear</title>
+</head>
+<body>
+{% if user.is_authenticated %}
+  <p>Welcome, my genuine {{username}}, my true love.</p>
+{% else %}
+  <p>Sorry, not login, you are not yet my sweetheart. </p>
+{% endif %}
+</body>
+</html>

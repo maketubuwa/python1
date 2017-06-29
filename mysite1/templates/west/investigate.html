@@ -1,0 +1,10 @@
+
+<form action="/west/investigate/" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" value="submit" />
+</form>
+{% for item in staff %}
+<p>{{item}}</p>
+{% endfor %}
+

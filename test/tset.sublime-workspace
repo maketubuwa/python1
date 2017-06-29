@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"characters"
+			],
+			[
+				"l",
+				"len\tfunction"
+			],
+			[
+				"st",
+				"strip\tfunction"
+			],
+			[
+				"u",
+				"utf-8"
+			],
+			[
+				"lo",
+				"logging\tmodule"
+			],
+			[
+				"W",
+				"Weekday\tclass"
+			],
+			[
+				"F",
+				"Fib1\tclass"
+			],
+			[
+				"se",
+				"self\tparam"
+			],
+			[
+				"ra",
+				"raise\tkeyword"
+			],
+			[
+				"tes",
+				"test_predictions\tstatement"
+			],
+			[
+				"pre",
+				"predictions\tstatement"
+			],
+			[
+				"a",
+				"alg\tstatement"
+			],
+			[
+				"tra",
+				"train_target\tstatement"
+			],
+			[
+				"train",
+				"train_predictors\tstatement"
+			],
+			[
+				"pr",
+				"predictions\tstatement"
+			],
+			[
+				"kf",
+				"KFold\timport"
+			],
+			[
+				"read_",
+				"read_json\tfunction"
+			],
+			[
+				"set",
+				"set_window_size\tfunction"
+			],
+			[
+				"P",
+				"PhantomJS\tclass"
+			],
+			[
+				"p",
+				"product"
+			],
+			[
+				"fi",
+				"find"
+			],
+			[
+				"ti",
+				"TimeoutException\tclass"
+			],
+			[
+				"pa",
+				"page_num"
+			],
+			[
+				"nex",
+				"next_page\tfunction"
+			],
+			[
+				"by",
+				"By\tclass"
+			],
+			[
+				"in",
+				"input\tstatement"
+			],
+			[
+				"par",
+				"presence_of_element_located\tclass"
+			],
+			[
+				"w",
+				"wait\tstatement"
+			],
+			[
+				"re",
+				"response\tstatement"
+			],
+			[
+				"r",
+				"RequestException\tclass"
+			],
+			[
+				"br",
+				"brower\tstatement"
+			],
+			[
+				"str",
+				"start"
+			],
+			[
+				"s",
+				"start\tparam"
+			],
+			[
+				"i",
+				"item"
+			],
+			[
+				"get",
+				"get_one_page〔function〕"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"St",
+				"Student1〔class〕"
+			],
+			[
+				"Ani",
+				"Animal"
+			],
+			[
+				"__",
+				"__food"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ceshi3.py",
+			"settings":
+			{
+				"buffer_size": 1483,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#!/usr/bin/env python\n# -*- coding: utf-8 -*-\n# @Date    : 2017-06-06 19:20:59\n# @Author  : 曹伟 (caocaosze@qq.com)\n# @Link    : #\n# @Version : $Id$\n\n\n\nfr=open('黄金时代.txt','r')\ncharacters=[]\nfor x in fr:\n\tcharacters.append[x]\n\tfw=open('goldtime.txt','w','utf-8')\n\n\n\nfr.close()",
+			"file": "ceshi4.py",
+			"file_size": 237,
+			"file_write_time": 131412253853205909,
+			"settings":
+			{
+				"buffer_size": 273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 154.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Administrator/Desktop/test"
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/test/taobao phantmojs",
+		"/C/Users/Administrator/Desktop/test/pandas1.py",
+		"/C/Users/Administrator/Desktop/test/beijing1.csv",
+		"/C/Users/Administrator/Desktop/test/taobao.txt",
+		"/C/Users/Administrator/Desktop/test/taobao.py",
+		"/C/Users/Administrator/Desktop/test/fil111e.csv",
+		"/C/Program Files (x86)/Google/Chrome/Application/master_preferences",
+		"/C/Program Files (x86)/Google/Chrome/Application/chrome.VisualElementsManifest.xml",
+		"/C/Users/Administrator/.jupyter/jupyter_notebook_config.py",
+		"/C/Users/Administrator/Desktop/test/result.txt",
+		"/C/Users/Administrator/Desktop/test/config.py",
+		"/C/Users/Administrator/Desktop/test/maoyan.py",
+		"/C/Users/Administrator/Desktop/test/doubanpinglun.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Administrator/AppData/Local/Programs/Python/Python36/Lib/site-packages/chromedriver/__init__.py",
+		"/C/Users/Administrator/AppData/Local/Programs/Python/Python36/Lib/site-packages/chromedriver/__pycache__/__init__.cpython-36.pyc",
+		"/C/Users/Administrator/Desktop/test/东邪西毒.txt",
+		"/C/Users/Administrator/Desktop/test/maoyan1.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/AutoPEP8/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeTmpl.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeTmpl/Main.sublime-menu",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/Desktop/test/__slots__.py",
+		"/C/Users/Administrator/Desktop/test/@property.py",
+		"/C/Users/Administrator/Desktop/test/ceshi2.py",
+		"/C/Users/Administrator/Desktop/test/ceshi1.py",
+		"/C/Users/Administrator/Desktop/test/type isinstance.py",
+		"/C/Users/Administrator/Desktop/test/jicheng1.py",
+		"/C/Users/Administrator/Desktop/test/shili.py",
+		"/C/Users/Administrator/Desktop/test/jicheng.py",
+		"/C/Users/Administrator/Desktop/test/abc.py",
+		"/C/Users/Administrator/Desktop/test/tset.sublime-project",
+		"/C/Users/Administrator/Desktop/test/ceshi.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/Administrator/Desktop/test/fangwenxianzhi.py",
+		"/D/python/mokuai.py",
+		"/C/Users/Administrator/Desktop/新建文件夹 (2)/test/abc.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Pylinter.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/WordCount.sublime-settings"
+	],
+	"find":
+	{
+		"height": 64.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Thu",
+			"f=Fib1()\nprint(f[2:8])",
+			"\t\nc.NotebookApp",
+			"\t\n",
+			"= ",
+			"\t\t\n",
+			"\t\t\t\n",
+			"print(items)",
+			"height",
+			"self",
+			"__init__",
+			"().",
+			"self",
+			"\n\t\t",
+			"\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ceshi3.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1253,
+								1253
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "python"
+							},
+							"auto_complete": false,
+							"default_extension": "py",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1202.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ceshi4.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "python"
+							},
+							"auto_complete": false,
+							"default_extension": "py",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 154.0
+	},
+	"output.exec":
+	{
+		"height": 251.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "tset.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

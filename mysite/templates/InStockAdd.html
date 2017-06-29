@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Add In Stock Bill</title>
+
+</head>
+
+<body>
+
+<h1>Add In Stock Bill</h1>
+<!--版本一：布使用forms模版-->
+
+<!-- {% if errors %}
+
+<ul>
+
+{% for error in errors %}
+
+<li>{{ error }}</li>
+
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+<form action="/AddInStockBill/" method="post" >
+
+<p>入库单编号: <input type="text" name="InStockBillCode" value="{{InStockBillCode}}"></p>
+
+<p>入库时间: <input type="text" name="InStockDate" value="{{InStockDate}}"></p>
+
+<p>操作员: <input type="text" name="Operator" value="{{Operator}}"></p>
+
+<p>物料:<select name='ItemId'>
+	
+{% if items %}
+{% for item in items %}
+{% ifequal item.ItemId ItemId %}
+<option value={{ item.ItemId }} selected>{{ item.ItemName }}</option>
+{% else %}
+<option value={{ item.ItemId }}>{{ item.ItemName }}</option>
+{% endifequal %}
+{% endfor %}
+{% endif %}	
+</select></p>
+
+<p>数量: <input type="text" name="Amount" value="{{Amount}}"></p> -->
+
+<!--版本二:使用forms模版-->
+{% if form.errors %}
+<p style="color: red;">
+
+Please correct the error{{ form.errors|pluralize }} below.
+
+</p>
+
+{% endif %}
+<form action="/AddInStockBill/" method="post" >
+{% csrf_token %}
+
+<table>
+
+{{ form.as_table }}
+
+</table>
+
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Inventory Search</title>
+</head>
+<body>
+    <div>
+    
+    <form action="/inventoryQuery/" method="get">
+        <label  ><strong>Item Name:</strong></label>
+        <input type="text" name="q" value={{query}}>
+        <input type="submit" value="Search">
+    </form>
+    </div>
+    <div>
+    <p>{{inventorys}}--'{{query}}'</p>
+        <table border="1">
+            <tr>
+                <th style="width:10px">Id</th>
+                <th style="width:20px">ItemName</th>
+                <th style="width:30px">Amount</th>
+            </tr>
+            {% if inventorys %}
+                {% for inventory in inventorys %}
+                    <tr>
+                    <td >{{inventory.InventoryId}}</td>
+                    <td >{{inventory.Item.ItemName}}</td>
+                    <td >{{inventory.Amount}}</td>
+                    </tr>
+                {% endfor %}
+            {% else %}
+
+            {% endif %}
+
+        </table> 
+    </div>
+    
+</body>
+</html>
