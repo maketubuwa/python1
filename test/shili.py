@@ -16,7 +16,7 @@ s.score=90
 print(s.name,s.score)
 
 class Student1(object):
-	name='Student1'
+	name='student1'
 
 s=Student1()
 print(s.name)	
