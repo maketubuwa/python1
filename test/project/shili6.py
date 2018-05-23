@@ -16,6 +16,7 @@ def getHTMLText(url):
 	except:
 		print(" ")
 
+
 #分析页面，并取出相关内容
 def parsePage(infoList,html):
 	try:

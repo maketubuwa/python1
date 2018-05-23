@@ -34,6 +34,7 @@ def write_in_file(content):
 		f.close()
 
 
+
 def main(start):
 	url='https://www.douban.com/group/topic/1316973/?start='+str(start)
 	html=get_one_page(url)

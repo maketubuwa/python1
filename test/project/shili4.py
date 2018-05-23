@@ -18,6 +18,7 @@ def getHtmlText(url):
 		return r.text
 	except:
 		print("出现异常！")
+
 #解析网页信息
 def	fillUnivList(ulist,html):
 	soup=BeautifulSoup(html,"html.parser")
